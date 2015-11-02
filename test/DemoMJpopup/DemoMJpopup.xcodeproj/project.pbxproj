@@ -1,0 +1,633 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E2B906491BE6FF910043210C /* Screen1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2B906471BE6FF910043210C /* Screen1ViewController.m */; };
+		E2B9064A1BE6FF910043210C /* Screen1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2B906481BE6FF910043210C /* Screen1ViewController.xib */; };
+		E2B9064C1BE6FFCA0043210C /* IMG_30102015_162016.png in Resources */ = {isa = PBXBuildFile; fileRef = E2B9064B1BE6FFCA0043210C /* IMG_30102015_162016.png */; };
+		E2F4C6E21BE34F1E007943FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F4C6E11BE34F1E007943FB /* main.m */; };
+		E2F4C6E51BE34F1E007943FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F4C6E41BE34F1E007943FB /* AppDelegate.m */; };
+		E2F4C6E81BE34F1E007943FB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F4C6E71BE34F1E007943FB /* ViewController.m */; };
+		E2F4C6EB1BE34F1E007943FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2F4C6E91BE34F1E007943FB /* Main.storyboard */; };
+		E2F4C6EE1BE34F1E007943FB /* DemoMJpopup.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E2F4C6EC1BE34F1E007943FB /* DemoMJpopup.xcdatamodeld */; };
+		E2F4C6F01BE34F1E007943FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2F4C6EF1BE34F1E007943FB /* Assets.xcassets */; };
+		E2F4C6F31BE34F1E007943FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2F4C6F11BE34F1E007943FB /* LaunchScreen.storyboard */; };
+		E2F4C6FE1BE34F1E007943FB /* DemoMJpopupTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F4C6FD1BE34F1E007943FB /* DemoMJpopupTests.m */; };
+		E2F4C7091BE34F1E007943FB /* DemoMJpopupUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F4C7081BE34F1E007943FB /* DemoMJpopupUITests.m */; };
+		E2F4C71B1BE34F74007943FB /* MJPopupBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F4C7181BE34F74007943FB /* MJPopupBackgroundView.m */; };
+		E2F4C71C1BE34F74007943FB /* UIViewController+MJPopupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F4C71A1BE34F74007943FB /* UIViewController+MJPopupViewController.m */; };
+		E2F4C7201BE35184007943FB /* CalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F4C71E1BE35184007943FB /* CalendarViewController.m */; };
+		E2F4C7211BE35184007943FB /* CalendarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2F4C71F1BE35184007943FB /* CalendarViewController.xib */; };
+		E2F4C7251BE351BB007943FB /* CalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F4C7241BE351BB007943FB /* CalendarView.m */; };
+		E2F4C7281BE351D3007943FB /* BorderButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F4C7271BE351D3007943FB /* BorderButton.m */; };
+		E2F4C72B1BE351FB007943FB /* ColorUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F4C72A1BE351FB007943FB /* ColorUtils.m */; };
+		E2F4C72E1BE3535C007943FB /* UIView+BorderLine.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F4C72D1BE3535C007943FB /* UIView+BorderLine.m */; };
+		E2F4C7321BE35FBD007943FB /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F4C7301BE35FBD007943FB /* DemoViewController.m */; };
+		E2F4C7331BE35FBD007943FB /* DemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2F4C7311BE35FBD007943FB /* DemoViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E2F4C6FA1BE34F1E007943FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2F4C6D51BE34F1D007943FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2F4C6DC1BE34F1E007943FB;
+			remoteInfo = DemoMJpopup;
+		};
+		E2F4C7051BE34F1E007943FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2F4C6D51BE34F1D007943FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2F4C6DC1BE34F1E007943FB;
+			remoteInfo = DemoMJpopup;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E2A282671BE767A2002B08D8 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		E2A282681BE7693E002B08D8 /* Constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		E2B906461BE6FF910043210C /* Screen1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Screen1ViewController.h; sourceTree = "<group>"; };
+		E2B906471BE6FF910043210C /* Screen1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Screen1ViewController.m; sourceTree = "<group>"; };
+		E2B906481BE6FF910043210C /* Screen1ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Screen1ViewController.xib; sourceTree = "<group>"; };
+		E2B9064B1BE6FFCA0043210C /* IMG_30102015_162016.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_30102015_162016.png; sourceTree = "<group>"; };
+		E2F4C6DD1BE34F1E007943FB /* DemoMJpopup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoMJpopup.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2F4C6E11BE34F1E007943FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E2F4C6E31BE34F1E007943FB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E2F4C6E41BE34F1E007943FB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E2F4C6E61BE34F1E007943FB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E2F4C6E71BE34F1E007943FB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E2F4C6EA1BE34F1E007943FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E2F4C6ED1BE34F1E007943FB /* DemoMJpopup.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DemoMJpopup.xcdatamodel; sourceTree = "<group>"; };
+		E2F4C6EF1BE34F1E007943FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E2F4C6F21BE34F1E007943FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E2F4C6F41BE34F1E007943FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2F4C6F91BE34F1E007943FB /* DemoMJpopupTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoMJpopupTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2F4C6FD1BE34F1E007943FB /* DemoMJpopupTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoMJpopupTests.m; sourceTree = "<group>"; };
+		E2F4C6FF1BE34F1E007943FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2F4C7041BE34F1E007943FB /* DemoMJpopupUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoMJpopupUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2F4C7081BE34F1E007943FB /* DemoMJpopupUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoMJpopupUITests.m; sourceTree = "<group>"; };
+		E2F4C70A1BE34F1E007943FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2F4C7171BE34F74007943FB /* MJPopupBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPopupBackgroundView.h; sourceTree = "<group>"; };
+		E2F4C7181BE34F74007943FB /* MJPopupBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPopupBackgroundView.m; sourceTree = "<group>"; };
+		E2F4C7191BE34F74007943FB /* UIViewController+MJPopupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MJPopupViewController.h"; sourceTree = "<group>"; };
+		E2F4C71A1BE34F74007943FB /* UIViewController+MJPopupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MJPopupViewController.m"; sourceTree = "<group>"; };
+		E2F4C71D1BE35184007943FB /* CalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarViewController.h; sourceTree = "<group>"; };
+		E2F4C71E1BE35184007943FB /* CalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarViewController.m; sourceTree = "<group>"; };
+		E2F4C71F1BE35184007943FB /* CalendarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CalendarViewController.xib; sourceTree = "<group>"; };
+		E2F4C7231BE351BB007943FB /* CalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarView.h; sourceTree = "<group>"; };
+		E2F4C7241BE351BB007943FB /* CalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarView.m; sourceTree = "<group>"; };
+		E2F4C7261BE351D3007943FB /* BorderButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BorderButton.h; sourceTree = "<group>"; };
+		E2F4C7271BE351D3007943FB /* BorderButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BorderButton.m; sourceTree = "<group>"; };
+		E2F4C7291BE351FB007943FB /* ColorUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorUtils.h; sourceTree = "<group>"; };
+		E2F4C72A1BE351FB007943FB /* ColorUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorUtils.m; sourceTree = "<group>"; };
+		E2F4C72C1BE3535C007943FB /* UIView+BorderLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BorderLine.h"; sourceTree = "<group>"; };
+		E2F4C72D1BE3535C007943FB /* UIView+BorderLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BorderLine.m"; sourceTree = "<group>"; };
+		E2F4C72F1BE35FBD007943FB /* DemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
+		E2F4C7301BE35FBD007943FB /* DemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
+		E2F4C7311BE35FBD007943FB /* DemoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E2F4C6DA1BE34F1E007943FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2F4C6F61BE34F1E007943FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2F4C7011BE34F1E007943FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E2F4C6D41BE34F1D007943FB = {
+			isa = PBXGroup;
+			children = (
+				E2F4C6DF1BE34F1E007943FB /* DemoMJpopup */,
+				E2F4C6FC1BE34F1E007943FB /* DemoMJpopupTests */,
+				E2F4C7071BE34F1E007943FB /* DemoMJpopupUITests */,
+				E2F4C6DE1BE34F1E007943FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E2F4C6DE1BE34F1E007943FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2F4C6DD1BE34F1E007943FB /* DemoMJpopup.app */,
+				E2F4C6F91BE34F1E007943FB /* DemoMJpopupTests.xctest */,
+				E2F4C7041BE34F1E007943FB /* DemoMJpopupUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2F4C6DF1BE34F1E007943FB /* DemoMJpopup */ = {
+			isa = PBXGroup;
+			children = (
+				E2F4C7221BE351B0007943FB /* SampleCalendar */,
+				E2F4C7161BE34F65007943FB /* MJPopupViewController */,
+				E2F4C6E31BE34F1E007943FB /* AppDelegate.h */,
+				E2B9064B1BE6FFCA0043210C /* IMG_30102015_162016.png */,
+				E2F4C6E41BE34F1E007943FB /* AppDelegate.m */,
+				E2F4C6E61BE34F1E007943FB /* ViewController.h */,
+				E2F4C6E71BE34F1E007943FB /* ViewController.m */,
+				E2F4C6E91BE34F1E007943FB /* Main.storyboard */,
+				E2F4C6EF1BE34F1E007943FB /* Assets.xcassets */,
+				E2F4C6F11BE34F1E007943FB /* LaunchScreen.storyboard */,
+				E2F4C6F41BE34F1E007943FB /* Info.plist */,
+				E2F4C6EC1BE34F1E007943FB /* DemoMJpopup.xcdatamodeld */,
+				E2F4C6E01BE34F1E007943FB /* Supporting Files */,
+				E2B906461BE6FF910043210C /* Screen1ViewController.h */,
+				E2B906471BE6FF910043210C /* Screen1ViewController.m */,
+				E2B906481BE6FF910043210C /* Screen1ViewController.xib */,
+				E2A282671BE767A2002B08D8 /* PrefixHeader.pch */,
+				E2A282681BE7693E002B08D8 /* Constant.h */,
+			);
+			path = DemoMJpopup;
+			sourceTree = "<group>";
+		};
+		E2F4C6E01BE34F1E007943FB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E2F4C6E11BE34F1E007943FB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E2F4C6FC1BE34F1E007943FB /* DemoMJpopupTests */ = {
+			isa = PBXGroup;
+			children = (
+				E2F4C6FD1BE34F1E007943FB /* DemoMJpopupTests.m */,
+				E2F4C6FF1BE34F1E007943FB /* Info.plist */,
+			);
+			path = DemoMJpopupTests;
+			sourceTree = "<group>";
+		};
+		E2F4C7071BE34F1E007943FB /* DemoMJpopupUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E2F4C7081BE34F1E007943FB /* DemoMJpopupUITests.m */,
+				E2F4C70A1BE34F1E007943FB /* Info.plist */,
+			);
+			path = DemoMJpopupUITests;
+			sourceTree = "<group>";
+		};
+		E2F4C7161BE34F65007943FB /* MJPopupViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E2F4C7171BE34F74007943FB /* MJPopupBackgroundView.h */,
+				E2F4C7181BE34F74007943FB /* MJPopupBackgroundView.m */,
+				E2F4C7191BE34F74007943FB /* UIViewController+MJPopupViewController.h */,
+				E2F4C71A1BE34F74007943FB /* UIViewController+MJPopupViewController.m */,
+			);
+			name = MJPopupViewController;
+			sourceTree = "<group>";
+		};
+		E2F4C7221BE351B0007943FB /* SampleCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				E2F4C71D1BE35184007943FB /* CalendarViewController.h */,
+				E2F4C71E1BE35184007943FB /* CalendarViewController.m */,
+				E2F4C71F1BE35184007943FB /* CalendarViewController.xib */,
+				E2F4C7231BE351BB007943FB /* CalendarView.h */,
+				E2F4C7241BE351BB007943FB /* CalendarView.m */,
+				E2F4C7261BE351D3007943FB /* BorderButton.h */,
+				E2F4C7271BE351D3007943FB /* BorderButton.m */,
+				E2F4C7291BE351FB007943FB /* ColorUtils.h */,
+				E2F4C72A1BE351FB007943FB /* ColorUtils.m */,
+				E2F4C72C1BE3535C007943FB /* UIView+BorderLine.h */,
+				E2F4C72D1BE3535C007943FB /* UIView+BorderLine.m */,
+				E2F4C72F1BE35FBD007943FB /* DemoViewController.h */,
+				E2F4C7301BE35FBD007943FB /* DemoViewController.m */,
+				E2F4C7311BE35FBD007943FB /* DemoViewController.xib */,
+			);
+			name = SampleCalendar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E2F4C6DC1BE34F1E007943FB /* DemoMJpopup */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2F4C70D1BE34F1E007943FB /* Build configuration list for PBXNativeTarget "DemoMJpopup" */;
+			buildPhases = (
+				E2F4C6D91BE34F1E007943FB /* Sources */,
+				E2F4C6DA1BE34F1E007943FB /* Frameworks */,
+				E2F4C6DB1BE34F1E007943FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DemoMJpopup;
+			productName = DemoMJpopup;
+			productReference = E2F4C6DD1BE34F1E007943FB /* DemoMJpopup.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E2F4C6F81BE34F1E007943FB /* DemoMJpopupTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2F4C7101BE34F1E007943FB /* Build configuration list for PBXNativeTarget "DemoMJpopupTests" */;
+			buildPhases = (
+				E2F4C6F51BE34F1E007943FB /* Sources */,
+				E2F4C6F61BE34F1E007943FB /* Frameworks */,
+				E2F4C6F71BE34F1E007943FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2F4C6FB1BE34F1E007943FB /* PBXTargetDependency */,
+			);
+			name = DemoMJpopupTests;
+			productName = DemoMJpopupTests;
+			productReference = E2F4C6F91BE34F1E007943FB /* DemoMJpopupTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E2F4C7031BE34F1E007943FB /* DemoMJpopupUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2F4C7131BE34F1E007943FB /* Build configuration list for PBXNativeTarget "DemoMJpopupUITests" */;
+			buildPhases = (
+				E2F4C7001BE34F1E007943FB /* Sources */,
+				E2F4C7011BE34F1E007943FB /* Frameworks */,
+				E2F4C7021BE34F1E007943FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2F4C7061BE34F1E007943FB /* PBXTargetDependency */,
+			);
+			name = DemoMJpopupUITests;
+			productName = DemoMJpopupUITests;
+			productReference = E2F4C7041BE34F1E007943FB /* DemoMJpopupUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2F4C6D51BE34F1D007943FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = ivs;
+				TargetAttributes = {
+					E2F4C6DC1BE34F1E007943FB = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					E2F4C6F81BE34F1E007943FB = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = E2F4C6DC1BE34F1E007943FB;
+					};
+					E2F4C7031BE34F1E007943FB = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = E2F4C6DC1BE34F1E007943FB;
+					};
+				};
+			};
+			buildConfigurationList = E2F4C6D81BE34F1D007943FB /* Build configuration list for PBXProject "DemoMJpopup" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E2F4C6D41BE34F1D007943FB;
+			productRefGroup = E2F4C6DE1BE34F1E007943FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2F4C6DC1BE34F1E007943FB /* DemoMJpopup */,
+				E2F4C6F81BE34F1E007943FB /* DemoMJpopupTests */,
+				E2F4C7031BE34F1E007943FB /* DemoMJpopupUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E2F4C6DB1BE34F1E007943FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2F4C7211BE35184007943FB /* CalendarViewController.xib in Resources */,
+				E2F4C6F31BE34F1E007943FB /* LaunchScreen.storyboard in Resources */,
+				E2B9064A1BE6FF910043210C /* Screen1ViewController.xib in Resources */,
+				E2F4C6F01BE34F1E007943FB /* Assets.xcassets in Resources */,
+				E2B9064C1BE6FFCA0043210C /* IMG_30102015_162016.png in Resources */,
+				E2F4C6EB1BE34F1E007943FB /* Main.storyboard in Resources */,
+				E2F4C7331BE35FBD007943FB /* DemoViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2F4C6F71BE34F1E007943FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2F4C7021BE34F1E007943FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E2F4C6D91BE34F1E007943FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2F4C6EE1BE34F1E007943FB /* DemoMJpopup.xcdatamodeld in Sources */,
+				E2F4C6E81BE34F1E007943FB /* ViewController.m in Sources */,
+				E2F4C72E1BE3535C007943FB /* UIView+BorderLine.m in Sources */,
+				E2B906491BE6FF910043210C /* Screen1ViewController.m in Sources */,
+				E2F4C7321BE35FBD007943FB /* DemoViewController.m in Sources */,
+				E2F4C6E51BE34F1E007943FB /* AppDelegate.m in Sources */,
+				E2F4C7281BE351D3007943FB /* BorderButton.m in Sources */,
+				E2F4C6E21BE34F1E007943FB /* main.m in Sources */,
+				E2F4C71B1BE34F74007943FB /* MJPopupBackgroundView.m in Sources */,
+				E2F4C71C1BE34F74007943FB /* UIViewController+MJPopupViewController.m in Sources */,
+				E2F4C72B1BE351FB007943FB /* ColorUtils.m in Sources */,
+				E2F4C7251BE351BB007943FB /* CalendarView.m in Sources */,
+				E2F4C7201BE35184007943FB /* CalendarViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2F4C6F51BE34F1E007943FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2F4C6FE1BE34F1E007943FB /* DemoMJpopupTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2F4C7001BE34F1E007943FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2F4C7091BE34F1E007943FB /* DemoMJpopupUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E2F4C6FB1BE34F1E007943FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2F4C6DC1BE34F1E007943FB /* DemoMJpopup */;
+			targetProxy = E2F4C6FA1BE34F1E007943FB /* PBXContainerItemProxy */;
+		};
+		E2F4C7061BE34F1E007943FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2F4C6DC1BE34F1E007943FB /* DemoMJpopup */;
+			targetProxy = E2F4C7051BE34F1E007943FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E2F4C6E91BE34F1E007943FB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2F4C6EA1BE34F1E007943FB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E2F4C6F11BE34F1E007943FB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2F4C6F21BE34F1E007943FB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E2F4C70B1BE34F1E007943FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E2F4C70C1BE34F1E007943FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E2F4C70E1BE34F1E007943FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/DemoMJpopup/PrefixHeader.pch";
+				INFOPLIST_FILE = DemoMJpopup/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ivs.DemoMJpopup;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E2F4C70F1BE34F1E007943FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/DemoMJpopup/PrefixHeader.pch";
+				INFOPLIST_FILE = DemoMJpopup/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ivs.DemoMJpopup;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E2F4C7111BE34F1E007943FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DemoMJpopupTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ivs.DemoMJpopupTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DemoMJpopup.app/DemoMJpopup";
+			};
+			name = Debug;
+		};
+		E2F4C7121BE34F1E007943FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DemoMJpopupTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ivs.DemoMJpopupTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DemoMJpopup.app/DemoMJpopup";
+			};
+			name = Release;
+		};
+		E2F4C7141BE34F1E007943FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DemoMJpopupUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ivs.DemoMJpopupUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DemoMJpopup;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		E2F4C7151BE34F1E007943FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DemoMJpopupUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ivs.DemoMJpopupUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DemoMJpopup;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E2F4C6D81BE34F1D007943FB /* Build configuration list for PBXProject "DemoMJpopup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2F4C70B1BE34F1E007943FB /* Debug */,
+				E2F4C70C1BE34F1E007943FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2F4C70D1BE34F1E007943FB /* Build configuration list for PBXNativeTarget "DemoMJpopup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2F4C70E1BE34F1E007943FB /* Debug */,
+				E2F4C70F1BE34F1E007943FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2F4C7101BE34F1E007943FB /* Build configuration list for PBXNativeTarget "DemoMJpopupTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2F4C7111BE34F1E007943FB /* Debug */,
+				E2F4C7121BE34F1E007943FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2F4C7131BE34F1E007943FB /* Build configuration list for PBXNativeTarget "DemoMJpopupUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2F4C7141BE34F1E007943FB /* Debug */,
+				E2F4C7151BE34F1E007943FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E2F4C6EC1BE34F1E007943FB /* DemoMJpopup.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E2F4C6ED1BE34F1E007943FB /* DemoMJpopup.xcdatamodel */,
+			);
+			currentVersion = E2F4C6ED1BE34F1E007943FB /* DemoMJpopup.xcdatamodel */;
+			path = DemoMJpopup.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E2F4C6D51BE34F1D007943FB /* Project object */;
+}
