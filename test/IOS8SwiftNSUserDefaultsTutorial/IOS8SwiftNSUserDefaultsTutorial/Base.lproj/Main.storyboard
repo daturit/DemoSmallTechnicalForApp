@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="yRD-dJ-K1L">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="IOS8SwiftNSUserDefaultsTutorial" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BlueTooth" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mJI-DA-LYU">
+                                <rect key="frame" x="12" y="72" width="88" height="28"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="88" id="Qql-2v-5V5"/>
+                                    <constraint firstAttribute="height" constant="28" id="V9j-9x-dOE"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="64d-bN-OIJ">
+                                <rect key="frame" x="124" y="69" width="51" height="31"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="31" id="AXv-y7-Y2F"/>
+                                    <constraint firstAttribute="width" constant="49" id="EzL-fo-CSb"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="saveSwitchState:" destination="BYZ-38-t0r" eventType="valueChanged" id="tyA-vb-M5w"/>
+                                </connections>
+                            </switch>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PWE-di-XVN">
+                                <rect key="frame" x="137" y="269" width="46" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="AKy-l9-oQf" kind="push" id="pBx-Yn-hPE"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="64d-bN-OIJ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="5" id="7cB-lY-KMq"/>
+                            <constraint firstItem="mJI-DA-LYU" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="12" id="GdL-u5-u3j"/>
+                            <constraint firstItem="PWE-di-XVN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Lex-LK-jVK"/>
+                            <constraint firstItem="64d-bN-OIJ" firstAttribute="leading" secondItem="mJI-DA-LYU" secondAttribute="trailing" constant="24" id="MGU-9e-2rQ"/>
+                            <constraint firstItem="PWE-di-XVN" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="oGW-3s-B9E"/>
+                            <constraint firstItem="mJI-DA-LYU" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="ulD-Pt-wFJ"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="rZa-Na-aP2"/>
+                    <connections>
+                        <outlet property="bluetoothSwitch" destination="64d-bN-OIJ" id="cfv-Z1-v9H"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="713" y="327"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="sjs-Os-78i">
+            <objects>
+                <viewController id="AKy-l9-oQf" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="EQb-qO-lpE"/>
+                        <viewControllerLayoutGuide type="bottom" id="6Jc-eX-doF"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ndp-c3-Tpm">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="z4q-jo-Lgy"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wwp-7b-JUx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1078" y="327"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="nZy-9o-J2m">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="yRD-dJ-K1L" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="iRe-kX-6VC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="pC6-cj-vSQ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bRx-wO-kxT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="181" y="327"/>
+        </scene>
+    </scenes>
+</document>
