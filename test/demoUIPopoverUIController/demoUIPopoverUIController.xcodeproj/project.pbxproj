@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E2AEF08C1BF08ED6003E16C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEF08B1BF08ED6003E16C5 /* main.m */; };
+		E2AEF08F1BF08ED6003E16C5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEF08E1BF08ED6003E16C5 /* AppDelegate.m */; };
+		E2AEF0921BF08ED6003E16C5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEF0911BF08ED6003E16C5 /* ViewController.m */; };
+		E2AEF0951BF08ED6003E16C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2AEF0931BF08ED6003E16C5 /* Main.storyboard */; };
+		E2AEF0971BF08ED6003E16C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2AEF0961BF08ED6003E16C5 /* Assets.xcassets */; };
+		E2AEF09A1BF08ED6003E16C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2AEF0981BF08ED6003E16C5 /* LaunchScreen.storyboard */; };
+		E2AEF0A41BF08F9B003E16C5 /* PopoverDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AEF0A21BF08F9B003E16C5 /* PopoverDemoViewController.m */; };
+		E2AEF0A51BF08F9B003E16C5 /* PopoverDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2AEF0A31BF08F9B003E16C5 /* PopoverDemoViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E2AEF0871BF08ED6003E16C5 /* demoUIPopoverUIController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = demoUIPopoverUIController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2AEF08B1BF08ED6003E16C5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E2AEF08D1BF08ED6003E16C5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E2AEF08E1BF08ED6003E16C5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E2AEF0901BF08ED6003E16C5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E2AEF0911BF08ED6003E16C5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E2AEF0941BF08ED6003E16C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E2AEF0961BF08ED6003E16C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E2AEF0991BF08ED6003E16C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E2AEF09B1BF08ED6003E16C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2AEF0A11BF08F9B003E16C5 /* PopoverDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopoverDemoViewController.h; sourceTree = "<group>"; };
+		E2AEF0A21BF08F9B003E16C5 /* PopoverDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopoverDemoViewController.m; sourceTree = "<group>"; };
+		E2AEF0A31BF08F9B003E16C5 /* PopoverDemoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PopoverDemoViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E2AEF0841BF08ED6003E16C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E2AEF07E1BF08ED6003E16C5 = {
+			isa = PBXGroup;
+			children = (
+				E2AEF0891BF08ED6003E16C5 /* demoUIPopoverUIController */,
+				E2AEF0881BF08ED6003E16C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E2AEF0881BF08ED6003E16C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2AEF0871BF08ED6003E16C5 /* demoUIPopoverUIController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2AEF0891BF08ED6003E16C5 /* demoUIPopoverUIController */ = {
+			isa = PBXGroup;
+			children = (
+				E2AEF08D1BF08ED6003E16C5 /* AppDelegate.h */,
+				E2AEF08E1BF08ED6003E16C5 /* AppDelegate.m */,
+				E2AEF0901BF08ED6003E16C5 /* ViewController.h */,
+				E2AEF0911BF08ED6003E16C5 /* ViewController.m */,
+				E2AEF0931BF08ED6003E16C5 /* Main.storyboard */,
+				E2AEF0A11BF08F9B003E16C5 /* PopoverDemoViewController.h */,
+				E2AEF0A21BF08F9B003E16C5 /* PopoverDemoViewController.m */,
+				E2AEF0A31BF08F9B003E16C5 /* PopoverDemoViewController.xib */,
+				E2AEF0961BF08ED6003E16C5 /* Assets.xcassets */,
+				E2AEF0981BF08ED6003E16C5 /* LaunchScreen.storyboard */,
+				E2AEF09B1BF08ED6003E16C5 /* Info.plist */,
+				E2AEF08A1BF08ED6003E16C5 /* Supporting Files */,
+			);
+			path = demoUIPopoverUIController;
+			sourceTree = "<group>";
+		};
+		E2AEF08A1BF08ED6003E16C5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E2AEF08B1BF08ED6003E16C5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E2AEF0861BF08ED6003E16C5 /* demoUIPopoverUIController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2AEF09E1BF08ED6003E16C5 /* Build configuration list for PBXNativeTarget "demoUIPopoverUIController" */;
+			buildPhases = (
+				E2AEF0831BF08ED6003E16C5 /* Sources */,
+				E2AEF0841BF08ED6003E16C5 /* Frameworks */,
+				E2AEF0851BF08ED6003E16C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = demoUIPopoverUIController;
+			productName = demoUIPopoverUIController;
+			productReference = E2AEF0871BF08ED6003E16C5 /* demoUIPopoverUIController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2AEF07F1BF08ED6003E16C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = ivs;
+				TargetAttributes = {
+					E2AEF0861BF08ED6003E16C5 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = E2AEF0821BF08ED6003E16C5 /* Build configuration list for PBXProject "demoUIPopoverUIController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E2AEF07E1BF08ED6003E16C5;
+			productRefGroup = E2AEF0881BF08ED6003E16C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2AEF0861BF08ED6003E16C5 /* demoUIPopoverUIController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E2AEF0851BF08ED6003E16C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2AEF09A1BF08ED6003E16C5 /* LaunchScreen.storyboard in Resources */,
+				E2AEF0A51BF08F9B003E16C5 /* PopoverDemoViewController.xib in Resources */,
+				E2AEF0971BF08ED6003E16C5 /* Assets.xcassets in Resources */,
+				E2AEF0951BF08ED6003E16C5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E2AEF0831BF08ED6003E16C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2AEF0921BF08ED6003E16C5 /* ViewController.m in Sources */,
+				E2AEF0A41BF08F9B003E16C5 /* PopoverDemoViewController.m in Sources */,
+				E2AEF08F1BF08ED6003E16C5 /* AppDelegate.m in Sources */,
+				E2AEF08C1BF08ED6003E16C5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E2AEF0931BF08ED6003E16C5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2AEF0941BF08ED6003E16C5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E2AEF0981BF08ED6003E16C5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2AEF0991BF08ED6003E16C5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E2AEF09C1BF08ED6003E16C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E2AEF09D1BF08ED6003E16C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E2AEF09F1BF08ED6003E16C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = demoUIPopoverUIController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ivs.demoUIPopoverUIController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E2AEF0A01BF08ED6003E16C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = demoUIPopoverUIController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ivs.demoUIPopoverUIController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E2AEF0821BF08ED6003E16C5 /* Build configuration list for PBXProject "demoUIPopoverUIController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2AEF09C1BF08ED6003E16C5 /* Debug */,
+				E2AEF09D1BF08ED6003E16C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2AEF09E1BF08ED6003E16C5 /* Build configuration list for PBXNativeTarget "demoUIPopoverUIController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2AEF09F1BF08ED6003E16C5 /* Debug */,
+				E2AEF0A01BF08ED6003E16C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E2AEF07F1BF08ED6003E16C5 /* Project object */;
+}
